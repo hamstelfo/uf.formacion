@@ -1,0 +1,27 @@
+{
+    "name": "custom-button",
+    "module": "/dist/custom-button",
+    "description": "A custom button for ReactJS projects.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Oscar Anaya",
+        "email": "oanaya@asystem.es"
+    },
+    "homepage": "https://github.com/hamstelfo/uf.formacion/custom-button",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hamstelfo/uf.formacion/custom-button"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "docs": "start-storybook -p 9001 -c storybook",
+        "docs:build": "build-storybook -c storybook -o docs"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^2.0.1",
+        "uglifyjs-webpack-plugin": "^2.1.2",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0"
+    }
+}
