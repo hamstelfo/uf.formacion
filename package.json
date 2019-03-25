@@ -2,7 +2,7 @@
   "name": "tests",
   "version": "1.0.0",
   "description": "Test project",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "set NODE_ENV=production && webpack --mode=production",
     "build": "webpack --mode production",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/hamstelfo/uf.formacion"
   },
-  "author": "",
+  "author": "Asystem España SL",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
